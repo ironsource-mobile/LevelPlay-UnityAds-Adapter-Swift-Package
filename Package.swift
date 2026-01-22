@@ -8,8 +8,7 @@ let package = Package(
     .library(name: "UnityAdsAdapter", targets: ["UnityAdsAdapter"]),
   ],
   dependencies: [
-    // TODO: Add UnityAds SPM package when available
-    // .package(url: "<UnityAds-SPM-URL>", exact: "4.16.5"),
+    .package(url: "https://github.com/Unity-Technologies/Unity-Ads-Swift-Package", exact: "4.16.5"),
     .package(url: "https://github.com/ironsource-mobile/Unity-Mediation-iAds-Swift-Package", "9.0.0"..<"10.0.0"),
   ],
   targets: [
@@ -17,8 +16,7 @@ let package = Package(
       name: "UnityAdsAdapter",
       dependencies: [
         "UnityAdsAdapterSDK",
-        // TODO: Add UnityAds product when SPM package is available
-        // .product(name: "<UnityAdsProductName>", package: "<UnityAdsPackageName>"),
+        .product(name: "UnityAds", package: "Unity-Ads-Swift-Package"),
         .product(name: "UnityMediationSDK", package: "Unity-Mediation-iAds-Swift-Package"),
       ]
     ),
