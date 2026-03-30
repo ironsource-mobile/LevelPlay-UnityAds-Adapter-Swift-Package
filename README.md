@@ -30,7 +30,7 @@ dependencies: [
 
 This package includes:
 - LevelPlay iOS SDK (Unity Mediation SDK)
-- UnityAds SDK v4.16.5
+- UnityAds SDK
 
 ## Documentation
 
