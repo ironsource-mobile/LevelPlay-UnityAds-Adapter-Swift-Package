@@ -8,7 +8,7 @@ let package = Package(
     .library(name: "UnityAdsAdapter", targets: ["UnityAdsAdapter"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/Unity-Technologies/Unity-Ads-Swift-Package", exact: "4.17.0"),
+    .package(url: "https://github.com/Unity-Technologies/Unity-Ads-Swift-Package", exact: "4.18.0"),
     .package(url: "https://github.com/ironsource-mobile/Unity-Mediation-iAds-Swift-Package", "9.0.0"..<"10.0.0"),
   ],
   targets: [
@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "UnityAdsAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/unityads-adapter/5.6.0/ISUnityAdsAdapter5.6.0.zip",
-      checksum: "0f69a035e6ff165e0431daaad7e846ed76e4b7d498891fb6a2801e09dc279ee5"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/unityads-adapter/5.7.0/ISUnityAdsAdapter5.7.0.zip",
+      checksum: "830d5cd95ce4596408ed7d700f24008a1d6935bb01cf538d88b13f4bac3e535b"
     )
   ]
 )
