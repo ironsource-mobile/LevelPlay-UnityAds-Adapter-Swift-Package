@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "UnityAdsAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/unityads-adapter/5.10.0/ISUnityAdsAdapter5.10.0.zip",
-      checksum: "973602f0be1798489f64e9f3324413a395b2807d9c34d36142b2f6637439f00b"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/unityads-adapter/5.11.0/ISUnityAdsAdapter5.11.0.zip",
+      checksum: "3cfe757f494b9e118b09940cd20d73b2b5b95ef829965b5a90d9672a9055b555"
     )
   ]
 )
