@@ -28,8 +28,10 @@ dependencies: [
 
 ## Dependencies
 
+This package does not depend on the LevelPlay SDK. Add `LevelPlay-Swift-Package` to your app
+separately.
+
 This package includes:
-- LevelPlay iOS SDK (Unity Mediation SDK)
 - UnityAds SDK
 
 ## Documentation
